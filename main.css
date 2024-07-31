@@ -1,0 +1,433 @@
+/*Criando o reset da página*/
+*{
+    margin:auto 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding: 0px;
+    background-color: #543982;
+    color: #F4F2F2;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #F4F2F2;
+    text-decoration: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family:  "Syne Mono", monospace;
+    
+}
+
+h2 {
+    font-size: 38px;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+span{
+    color:#0B0A0A;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: rgb(28, 26, 26) 0.1em 0.1em 0.2em
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+    color: #cec5c5; 
+    text-shadow: rgb(43, 40, 40) 0.1em 0.1em 0.2em;
+    font-family:  "Syne Mono", monospace;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 50px;
+}
+
+#home {
+    display: block;
+    background-image: url(./Imagens/Fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home .icones ul{
+    list-style: none;
+}
+
+#home .texto{
+    display:block;
+    width: 560px;
+    height: 220px;
+    margin-left: 250px;
+    text-align: center;
+    color: #F4F2F2;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#home .botoes{
+    display: flex;
+    padding: 50px;
+}
+
+#home .botoes .botao_home_1{
+    margin-left: 60px;
+}
+
+#home .botao_home_1 button{
+    width: 155px;
+    height: 44px;
+    margin-left: 200px;
+    border-radius: 30px;
+    background-color: #F4F2F2;
+    color: #a020f0;
+    border: none;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:  "Syne Mono", monospace;
+}
+
+#home .botao_home_2 button{
+    width: 208px;
+    height: 44px;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: #a020f0;
+    color: #F4F2F2;
+    border: none;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:  "Syne Mono", monospace;
+}
+
+#home .whatsapp{
+    padding: 50px;
+    margin-top: 160px;
+}
+#home  .whatsapp button {
+    width: 352px;
+    height: 44px;
+    color: #a020f0;
+    border-radius: 30px;
+    margin-left: 1440px;
+    border: none;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:  "Syne Mono", monospace;
+}
+#colaboradores {
+    display: flex;
+}
+
+#colaboradores .titulo_colaboradores {
+    padding: 20px;
+    position: absolute;
+    width: 1000px;
+    height: 80px;
+    margin-left: 450px;
+    margin-top: 60px ;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#colaboradores .titulo_colaboradores {
+    color: #F4F2F2;
+    
+}
+
+
+#colaboradores .caixa_1 h3,
+#colaboradores .caixa_2 h3,
+#colaboradores .caixa_3 h3,
+#colaboradores .caixa_4 h3{
+    font-size: 24px;
+    color: #F4F2F2;
+    margin-left: 10px;
+    margin-top: 700px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#colaboradores .caixa_1 p,
+#colaboradores .caixa_2 p,
+#colaboradores .caixa_3 p,
+#colaboradores .caixa_4 p{
+    text-align: justify;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #F4F2F2;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+#colaboradores .caixa_1 button,
+#colaboradores .caixa_2 button,
+#colaboradores .caixa_3 button,
+#colaboradores .caixa_4 button{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    padding: 10px;
+    color: #0B0A0A;
+    text-shadow: rgb(48, 47, 47) 0.1em 0.1em 0.2em
+}
+
+.caixa_1{
+    width: 500px;
+    height: 900px;
+    background-image: url(Imagens/pexels-edmond-dantès-4347368\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 10px;
+    
+}
+
+.gradiente_1{
+    width: 476px;
+    height: 900px;
+    background-image: linear-gradient(to bottom, transparent, #a020f0);
+    position:absolute;
+}
+
+
+.caixa_2{
+    width: 500px;
+    height: 900px;
+    background-image: url(Imagens/image\ 12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 10px;
+}
+
+.gradiente_2{
+    width: 476px;
+    height: 900px;
+    background-image: linear-gradient(to bottom, transparent, #a020f0);
+    position:absolute;
+    left: 475px;
+}
+
+
+.caixa_3{
+    width: 500px;
+    height: 900px;
+    background-image: url(Imagens/image\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 10px;
+}
+
+.gradiente_3{
+    width: 476px;
+    height: 900px;
+    background-image: linear-gradient(to bottom, transparent, #a020f0);
+    position:absolute;
+    left: 950px;
+}
+
+.caixa_4{
+    width: 500px;
+    height: 900px;
+    background-image: url(Imagens/image\ 10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    padding: 10px;
+}
+
+.gradiente_4{
+    width: 476px;
+    height: 900px;
+    background-image: linear-gradient(to bottom, transparent, #a020f0);
+    position:absolute;
+    left: 1425px;
+}
+
+#noticias{
+    background-color: #A75ECF;
+    background-color: linear-gradient(to top, #392080, #A75ECF);;
+}
+
+.titulo_noticias {
+    color:#F4F2F2;
+    align-items: center;
+    padding: 100px;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+#noticias h2{
+    color: #cec5c5; 
+}
+.cards {
+    display: flex;
+    align-items: center;
+    margin: 0 260px;
+}
+.card2 {
+    padding: 10px;
+    width: 385px;
+    height: 540px;
+    border-radius: 30px;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    background-image: url(./Imagens/image\ 7.png);
+    margin: 50px;
+}
+
+.card2 button {
+    width: 73px;
+    height:19px;
+    background-color: transparent;
+    text-decoration:underline;
+    border: none;
+}
+
+.card2 h2{
+    margin-top: 320px;
+    font-size: 24px;
+    
+    
+}
+
+.card2 p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 15px;
+}
+
+#contato {
+    background-image: url(./Imagens/Group\ 23\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contato .bloco{
+    width: 1440px; ;
+    height: 120px;
+    padding: 10px;
+}
+
+.titulo_contatos{
+    width: 600px;
+    height: 100px;
+    color: #F4F2F2;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 1050px;
+}
+
+#contato .texto {
+    font-size: 16px;
+    width: 770px;
+    height: 100px;
+    margin-left: 950px;
+    text-align: center;
+    color:#F4F2F2;
+    padding: 10px;
+}
+
+#contato .texto h3{
+    font-family:"Syne Mono", monospace;
+    font-weight: 100;
+}
+
+#contato .contact-methods p {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 950px;
+    padding: 10px 0px;
+    font-family:"Syne Mono", monospace;
+}
+
+#contato .contact-methods input {
+    width: 760px;
+    height: 52px;
+    border-radius: 8px;
+    margin-left: 950px;
+    border: none;
+    background-color: #F4F2F2;
+    padding: 5px;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:"Syne Mono", monospace;
+}
+
+#contato .contact-methods textarea{
+    width: 760px;
+    height: 105px;
+    border: none;
+    margin-left: 950px;
+    background-color: #F4F2F2;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:"Syne Mono", monospace;
+}
+
+#contato .contact-methods button {
+    width: 155px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #F4F2F2;
+    color: #a020f0;
+    margin-left: 1260px;
+    margin-top: 20px;
+    border: none;
+    padding: 5px;
+    box-shadow: rgb(33, 31, 31) 0.1em 0.1em 0.2em;
+    font-family:"Syne Mono", monospace;
+}
+
+
+
+footer {
+    background-color: #543982;
+    padding: 20px;
+}
+
+footer p {
+    width: 408px;
+    height: 136px;
+    font-size: 16px;
+    text-align: justify;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 0 50px;
+}
+
+footer h2{
+    color: #cec5c5;
+    font-size: 20px;
+    font-family:"Syne Mono", monospace;
+    padding: 10px;
+    margin-left: 180px;
+}
+footer h3{
+    color: #cec5c5;
+    font-size: 16px;
+    font-family:"Syne Mono", monospace;
+    font-weight: 100;
+    padding: 10px;
+    margin-left: 180px;
+}
+
